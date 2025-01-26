@@ -1,7 +1,7 @@
 # Heaps
 
-I. [About Heaps](#introduction)
-II. [Problems Practice](#problems-to-practice)
+- A. [About Heaps](#introduction)
+- B. [Problems Practice](#problems-to-practice)
 
 ## Introduction
 
