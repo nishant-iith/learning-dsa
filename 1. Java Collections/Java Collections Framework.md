@@ -5,7 +5,7 @@ The Java Collections Framework (JCF) is a set of classes and interfaces that imp
 ### 1. Custom classes
 In Java, collections can store custom objects, allowing you to define your own classes and use them within collections such as List, Set, and Map. Let’s take a simple class Person as an example:
 
-Java```
+```
 class Person {
     String name;
     int age;
