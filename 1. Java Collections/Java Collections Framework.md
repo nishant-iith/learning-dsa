@@ -5,7 +5,7 @@ The Java Collections Framework (JCF) is a set of classes and interfaces that imp
 ## 1. Custom classes
 In Java, collections can store custom objects, allowing you to define your own classes and use them within collections such as List, Set, and Map. Let’s take a simple class Person as an example:
 
-```Java
+```
 class Person {
     String name;
     int age;
@@ -112,3 +112,130 @@ queue.add("First");
 queue.add("Second");
 System.out.println(queue.poll()); // Output: First
 ```
+
+3. PriorityQueue
+PriorityQueue is a queue that orders elements according to their natural ordering or a custom comparator. Elements with higher priority are processed first.
+
+```
+PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+priorityQueue.add(10);
+priorityQueue.add(5);
+System.out.println(priorityQueue.poll()); // Output: 5
+```
+
+## 3. Map
+A Map is a collection that maps keys to values. It does not allow duplicate keys, but multiple keys can map to the same value.
+
+### a. HashMap
+HashMap is an implementation of the Map interface that uses a hash table for storage. It allows null keys and values.
+
+```
+Map<String, Integer> hashMap = new HashMap<>();
+hashMap.put("Apple", 10);
+hashMap.put("Banana", 20);
+System.out.println(hashMap); // Output: {Apple=10, Banana=20}
+```
+
+### b. TreeMap
+TreeMap is a red-black tree-based implementation of the Map interface. It stores entries in sorted order based on keys.
+
+```
+Map<String, Integer> treeMap = new TreeMap<>();
+treeMap.put("Orange", 5);
+treeMap.put("Mango", 15);
+System.out.println(treeMap); // Output: {Mango=15, Orange=5}
+```
+
+## 4. Iterator
+
+An Iterator allows you to traverse through a collection. ListIterator is a special type of iterator for List collections.
+
+### a. ListIterator
+ListIterator allows bidirectional traversal of a list, i.e., both forward and backward.
+
+```
+List<String> list = new ArrayList<>();
+list.add("One");
+list.add("Two");
+
+ListIterator<String> iterator = list.listIterator();
+while (iterator.hasNext()) {
+    System.out.println(iterator.next());
+}
+```
+
+## 5. Custom Comparator
+A Comparator allows you to define custom sorting logic for collections. You can use it to sort objects based on specific attributes.
+
+```
+Collections.sort(people, new Comparator<Person>() {
+    @Override
+    public int compare(Person p1, Person p2) {
+        return p1.age - p2.age;
+    }
+});
+```
+
+## 6. Common Algorithms
+Java provides several utility methods through the Collections and Arrays classes:
+
+- <i>Collections.sort(list);</i> - Sorts a list in natural order.
+```
+List<Integer> list = new ArrayList<>();
+list.add(3);
+list.add(1);
+list.add(2);
+Collections.sort(list);
+System.out.println(list); // Output: [1, 2, 3]
+```
+
+- <i>Collections.max(list);</i> - Returns the maximum element in a list.
+```
+List<Integer> list = new ArrayList<>();
+list.add(3);
+list.add(1);
+list.add(2);
+int max = Collections.max(list);
+System.out.println(max); // Output: 3
+```
+
+- <i>Collections.min(list);</i> - Returns the minimum element in a list.
+```
+int min = Collections.min(list);
+System.out.println(min); // Output: 1
+```
+
+- <i>Collections.reverse(list);</i> - Reverses the order of elements in a list.
+```
+Collections.reverse(list);
+System.out.println(list); // Output: [3, 2, 1]
+```
+
+- <i>Array.sort(array);</i> - Sorts the elements of the array.
+```
+int[] array = {3, 1, 2};
+Arrays.sort(array);
+System.out.println(Arrays.toString(array)); // Output: [1, 2, 3]
+```
+
+- <i>Collections.frequency(list, element);</i> - Returns the frequency of a specific element in a list.
+```
+int frequency = Collections.frequency(list, 2);
+System.out.println(frequency); // Output: 1
+```
+
+- <i>Collections.binarySearch(list, key);</i> - Performs a binary search for the key in the list (must be sorted).
+```
+int index = Collections.binarySearch(list, 2);
+System.out.println(index); // Output: 1 (index of 2 in sorted list [1, 2, 3])
+```
+
+- <i>Math.pow(base, exponent);</i> - Returns the value of base raised to the power of exponent.
+```
+double result = Math.pow(2, 3);
+System.out.println(result); // Output: 8.0
+```
+
+# Conclusion
+
+The Java Collections Framework provides a robust set of classes and interfaces to handle data structures like lists, sets, queues, and maps. By understanding and utilizing these collections, developers can write efficient, maintainable, and scalable applications. In addition, utility methods provided by the Collections and Arrays classes simplify common operations such as sorting and searching, making Java a powerful tool for managing data.
