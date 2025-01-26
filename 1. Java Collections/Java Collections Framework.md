@@ -36,7 +36,7 @@ System.out.println(people); // Output: [John (30), Alice (25)]
 
 A List is an ordered collection that allows duplicate elements. It provides positional access and is commonly used in scenarios where order matters.
 
-1. ArrayList
+1. <b>ArrayList</b> : 
 An ArrayList is a resizable array implementation of the List interface. It offers fast random access but slower insertions and deletions as elements need to be shifted.
 ```
 List<String> arrayList = new ArrayList<>();
@@ -45,7 +45,7 @@ arrayList.add("Banana");
 System.out.println(arrayList); // Output: [Apple, Banana]
 ```
 
-2. LinkedList
+2. <b>LinkedList</b> : 
 LinkedList is a doubly linked list implementation of the List interface. It provides fast insertions and deletions but slower random access compared to ArrayList.
 
 ```
@@ -55,7 +55,7 @@ linkedList.add("Dog");
 System.out.println(linkedList); // Output: [Cat, Dog]
 ```
 
-3. Stack
+3. <b>Stack</b> :
 Stack is a subclass of Vector that implements a last-in, first-out (LIFO) stack of elements. It provides typical stack operations like push() and pop().
 
 ```
@@ -65,7 +65,7 @@ stack.push(2);
 System.out.println(stack.pop()); // Output: 2
 ```
 
-4. Vector
+4. <b>Vector</b> :
 Vector is similar to ArrayList but is synchronized, meaning it is thread-safe for multi-threaded environments.
 
 ```
@@ -78,7 +78,7 @@ System.out.println(vector); // Output: [Red, Blue]
 ### b. Set
 A Set is a collection that does not allow duplicate elements. It is useful when you need to store unique elements.
 
-1. HashSet
+1. <b>HashSet</b> :
 HashSet is an implementation of the Set interface that uses a hash table for storage. It provides constant time performance for basic operations like add and remove.
 
 ```
@@ -88,7 +88,7 @@ hashSet.add("Two");
 System.out.println(hashSet); // Output: [One, Two]
 ```
 
-2. TreeSet
+2. <b>TreeSet</b> :
 TreeSet is an implementation of the Set interface that stores elements in a sorted order using a red-black tree. The elements are sorted based on their natural ordering or a custom comparator.
 ```
 Set<String> treeSet = new TreeSet<>();
@@ -100,10 +100,10 @@ System.out.println(treeSet); // Output: [Cat, Dog]
 ### c. Queue
 A Queue is a collection that follows the first-in, first-out (FIFO) principle. It is commonly used in scenarios where elements are processed in the order they are added.
 
-1. ArrayDeque
+1. <b>ArrayDeque</b> :
 Java doesn’t have a direct ArrayQueue, but you can implement a queue using an ArrayList. Alternatively, you can use LinkedList as a queue.
 
-2. LinkedList (as a Queue)
+2. <b>LinkedList (as a Queue)</b> :
 LinkedList can be used as a queue since it implements both the List and Queue interfaces.
 
 ```
@@ -113,7 +113,7 @@ queue.add("Second");
 System.out.println(queue.poll()); // Output: First
 ```
 
-3. PriorityQueue
+3. <b>PriorityQueue</b> :
 PriorityQueue is a queue that orders elements according to their natural ordering or a custom comparator. Elements with higher priority are processed first.
 
 ```
