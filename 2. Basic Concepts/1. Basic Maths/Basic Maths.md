@@ -1,5 +1,33 @@
 # Number Manipulation and Analysis Problems
 
+## Problem List
+1. [Count All Digits of a Number](#1-count-all-digits-of-a-number)
+2. [Count Number of Odd Digits](#2-count-number-of-odd-digits)
+3. [Reverse a Number](#3-reverse-a-number)
+4. [Palindrome Number](#4-palindrome-number)
+5. [Largest Digit in Number](#5-largest-digit-in-number)
+6. [Factorial of a Number](#6-factorial-of-a-number)
+7. [Armstrong Number](#7-armstrong-number)
+8. [Perfect Number](#8-perfect-number)
+9. [Prime Number](#9-prime-number)
+10. [Count Prime Numbers Till N](#10-count-prime-numbers-till-n)
+11. [GCD of Two Numbers](#11-gcd-of-two-numbers)
+12. [LCM of Two Numbers](#12-lcm-of-two-numbers)
+13. [Divisors of a Number](#13-divisors-of-a-number)
+
+## Introduction
+This comprehensive guide covers various number manipulation and analysis problems in Java. Each problem is solved using multiple approaches, demonstrating different algorithmic strategies and optimization techniques. The solutions focus on:
+- Efficient problem-solving
+- Time and space complexity optimization
+- Handling edge cases
+- Demonstrating different computational approaches
+
+### Key Problem-Solving Strategies
+- **Iterative Approaches**: Breaking down problems into step-by-step solutions
+- **Mathematical Optimizations**: Using mathematical properties to reduce computational complexity
+- **Edge Case Handling**: Addressing special input scenarios
+- **Complexity Reduction**: Improving time and space efficiency
+
 ## 1. Count All Digits of a Number
 
 ### Approach 1: Iterative Method
