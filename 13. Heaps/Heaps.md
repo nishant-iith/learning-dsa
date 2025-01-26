@@ -137,11 +137,11 @@ maxHeap.isEmpty();       // Check if empty
 
 1. Leetcode Problems
 
-    - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-    - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-    - [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-    - [846. Hands of Straights](https://leetcode.com/problems/hands-of-straight/)
-    - [355. Design Twitter](https://leetcode.com/problems/design-twitter/)
-    - [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
-    - [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-    - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+    - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/){:target="_blank"}
+    - [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/){:target="_blank"}
+    - [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/){:target="_blank"}
+    - [846. Hands of Straights](https://leetcode.com/problems/hands-of-straight/){:target="_blank"}
+    - [355. Design Twitter](https://leetcode.com/problems/design-twitter/){:target="_blank"}
+    - [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/){:target="_blank"}
+    - [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/){:target="_blank"}
+    - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/){:target="_blank"}
